@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &n);
 
     if (n <= 0) {
-        printf("Please enter a positive integer.\n");
+        printf("Please enter a positive integer.\n");//printing
     } else {
         for (i = 1; i <= n; i++) {
             sum += i;
